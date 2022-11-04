@@ -1,0 +1,22 @@
+import { NgModule } from '@angular/core';
+
+import {
+    MatButtonModule,
+    MatMenuModule,
+    MatIconModule,
+    MatCardModule,
+    MatSidenavModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatTooltipModule,
+    MatToolbarModule
+} from '@angular/material';
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>UPAO</span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button [routerLink]="'/home'">Inicio</button>
+    <button mat-raised-button [routerLink]="'/Espacio'">Estacionamientos</button>
+  </mat-toolbar-row>
+</mat-toolbar>
